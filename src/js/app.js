@@ -1,16 +1,8 @@
 import goblin from '../img/goblin.png'
+import './game_field.js';
 
-const fieldsCount = 16
 const image = `<img src="${goblin}">`;
 
-const divContainer = document.querySelector('.flex-container');
-let i = 0;
-while (i < fieldsCount) {
-    i++;
-    const field = document.createElement('div');
-    field.className = 'flex-inner';
-    divContainer.appendChild(field);
-};
 
 const divInnerFlex = document.querySelectorAll('.flex-inner');
 let imgPlace = 0;
