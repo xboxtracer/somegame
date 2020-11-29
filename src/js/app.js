@@ -19,4 +19,4 @@ setInterval(()=> {
     };
     imgPlace = someNumber;
     divInnerFlex[imgPlace].innerHTML = image;
-}, 2000);
+}, 1000);
