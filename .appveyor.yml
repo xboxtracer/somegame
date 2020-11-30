@@ -5,10 +5,10 @@ branches:
     - master
 cache: node_modules
 install:
-  - npm install
+  - yarn
 build: off
 build_script:
-  - npm run build
+  - yarn build
 deploy_script:
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
