@@ -1,8 +1,8 @@
 export default class gameFieldRendering {
     constructor(size) {
-        this.divContainer = document.querySelector('.flex-container'),
-        this.size = size,
-        this.render()
+        this.divContainer = document.querySelector('.flex-container');
+        this.size = size;
+        this.render();
     }
     render() {
         let i = 0;
