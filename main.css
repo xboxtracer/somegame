@@ -1,0 +1,36 @@
+body {
+  background: #eee;
+  text-align: center;
+}
+.score {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.score__board {
+  width: 50%;
+  height: 100%;
+}
+.btn__start {
+  background-color: rgb(32, 219, 57);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+.flex-inner {
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: orange;
+  width: 25%;
+  height: 25%;
+}
